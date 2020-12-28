@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2B6BC"
+    tools:context=".BlankFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+        <EditText
+            android:id="@+id/editTextTime"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_centerInParent="true"
+            android:ems="10"
+            android:inputType="time"
+            android:padding="10dp"
+            android:text="00:00:00"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="35sp" />
+    </RelativeLayout>
+</RelativeLayout>
